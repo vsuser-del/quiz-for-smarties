@@ -55,6 +55,27 @@ elif not answer.strip().isdigit():
 else:
     print("incorrect. the correct answer is 4.")
 
-print(f"You got {score}/4 correct, which is {(score/4)*100}%!")
+print("time for the ones i know you will lose on. this is the hardest question of all.")
+
+answer = input("Question 5: name 4 digits of pi ")
+
+if answer.strip() == "3.141":
+    print("correct!")
+    score += 1
+elif not answer.strip().isdigit():
+    print("bro the answer isnt a banana. it is a number.")
+else:
+    print("incorrect. the correct answer is 3.141.")
+
+answer = input("Question 6: what is the square root of 144? ")
+if answer.strip() == "12":
+    print("correct!")
+    score += 1 
+elif not answer.strip().isdigit():
+    print(f"bro the answer isnt ({answer}). it is a number.")
+else:
+    print("a third grade could answer this its 12.")
+
+print(f"You got {score}/6 correct, which is {(score/6)*100}%!")
 
 input("\nPress ENTER to close the game...") 

@@ -57,15 +57,15 @@ else:
 
 print("time for the ones i know you will lose on. this is the hardest question of all.")
 
-answer = input("Question 5: name 4 digits of pi ")
+answer = input("Question 5: name 4 digits of pi dont use decimal point: ")
 
-if answer.strip() == "3.141":
+if answer.strip() == "3141":
     print("correct!")
     score += 1
 elif not answer.strip().isdigit():
     print("bro the answer isnt a banana. it is a number.")
 else:
-    print("incorrect. the correct answer is 3.141.")
+    print("incorrect. the correct answer is 3141.")
 
 answer = input("Question 6: what is the square root of 144? ")
 if answer.strip() == "12":
